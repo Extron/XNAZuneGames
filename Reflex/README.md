@@ -1,0 +1,2 @@
+# Reflex
+An XNA library for the Zune HD that managed touchscreen inputs. Provided a variety of touch motions that could be monitored for, including presses, dragging, swiping, and long tapping/holding. Also provided ways to convert mouse inputs to touch inputs for testing on Windows.

@@ -1,0 +1,2 @@
+#GameMenus
+A XNA library that managed menu UIs for Zune video games. Contains a variety of UI components such as buttons, lists, and sliders, as well as a framework for designing UI element transitions and animations.  

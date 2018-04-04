@@ -1,0 +1,2 @@
+# Mach
+An XNA library for managing sound effects within a video game. Provided a sound manager that would load and unload sound assets from content files and play sound effects in a variety of ways, including looping, ambient, and music types.

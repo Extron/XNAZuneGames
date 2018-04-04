@@ -1,0 +1,2 @@
+# Combat Effective
+Combat Effective is a top-down shooter for the [Zune](https://en.wikipedia.org/wiki/Zune) build in Microsoft's [XNA framework](https://en.wikipedia.org/wiki/Microsoft_XNA). It utilizes the [Shatter](https://github.com/Extron/XNAZuneGames/tree/master/Shatter) and [InputHandler](https://github.com/Extron/XNAZuneGames/tree/master/InputHandler) libraries. This project is in a very incomplete state.

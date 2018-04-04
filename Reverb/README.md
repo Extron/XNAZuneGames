@@ -1,0 +1,2 @@
+# Reverb
+An XNA library for the Zune HD that provided UI and menu management for games. Provided a variety of UI components such as buttons, lists, sliders, switches, labels, and graphical sprites. Also provided a variety of transitions and animations that could be applied to UI components, such as fading, scaling, and translating. Provides a UI state manager to manage navigation between UI screens. Utilizes [Reflex](https://github.com/Extron/XNAZuneGames/tree/master/Reflex) for touchscreen input management. 

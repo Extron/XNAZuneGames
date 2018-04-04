@@ -1,0 +1,2 @@
+# Aftershock
+Aftershock is a lirbary that manages HUD elements for an XNA game. Various effects can be applied to the graphics elements that make up the HUD, and a storyboard of effects could be constructed to play in order. Graphics containers allow multiple graphics elements to be grouped together and treated as one element.

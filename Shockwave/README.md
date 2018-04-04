@@ -1,0 +1,2 @@
+#Shockwave
+An XNA library for the Zune HD that provides a media player to access the device's music. Allows the user to view and play any songs from their device, and displays their library by song, artist, album, or playlist. Allows the user construct a queue of songs, and to shuffle and repeat the active queue. Utilizes [Reverb](https://github.com/Extron/XNAZuneGames/tree/master/Reverb) to provide a UI for the media player and [Reflex](https://github.com/Extron/XNAZuneGames/tree/master/Reflex) for touch input.
