@@ -1,0 +1,393 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectGuid>a0ebe6c4-698c-4b47-9c17-f6eb656de941</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v3.1</XnaFrameworkVersion>
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <XnaPlatform>Windows</XnaPlatform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <XnaPlatform>Windows</XnaPlatform>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Food\Mouse 2.png">
+      <Name>Mouse 2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Snake\Snake 1.png">
+      <Name>Snake 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Snake\Snake Curve 1.png">
+      <Name>Snake Curve 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Snake\Snake Section 1.png">
+      <Name>Snake Section 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Snake\Tail 1.png">
+      <Name>Tail 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\LindseyLarge.spritefont">
+      <Name>LindseyLarge</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\Lindsey.spritefont">
+      <Name>Lindsey</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menus\Highlight.png">
+      <Name>Highlight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Menus\Title Screen.png">
+      <Name>Title Screen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menus\Menu Background.png">
+      <Name>Menu Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Menus\Small Menu.png">
+      <Name>Small Menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\LindseySmall.spritefont">
+      <Name>LindseySmall</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\LindseyAbout.spritefont">
+      <Name>LindseyAbout</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Food\Ground Hog 1.png">
+      <Name>Ground Hog 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\Kootenay.spritefont">
+      <Name>Kootenay</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sound\Munch.wav">
+      <Name>Munch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sound\Game Over.wav">
+      <Name>Game Over</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sound\Game Over 1.wav">
+      <Name>Game Over 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sound\Key Jingle 2.wav">
+      <Name>Key Jingle 2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sound\Key Jingle 3.wav">
+      <Name>Key Jingle 3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sound\Level Up 2.wav">
+      <Name>Level Up 2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sound\Squeak 1.wav">
+      <Name>Squeak 1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menus\Center Highlight.png">
+      <Name>Center Highlight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menus\In Game Menu.png">
+      <Name>In Game Menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Assets\Level Background.png">
+      <Name>Level Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Level Assets\Wall.png">
+      <Name>Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Assets\Wall 2.png">
+      <Name>Wall 2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Food\Rabbit 1.png">
+      <Name>Rabbit 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Previews\Snake Preview.png">
+      <Name>Snake Preview</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sliders\Slide Nub.png">
+      <Name>Slide Nub</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sliders\Slider.png">
+      <Name>Slider</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Assets\Portal.png">
+      <Name>Portal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Data\Level 1.png">
+      <Name>Level 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>0</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_MouseNumber>7</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_RabbitNumber>0</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_Score>1000</ProcessorParameters_Score>
+      <ProcessorParameters_SpawnPoint>12, 14</ProcessorParameters_SpawnPoint>
+    </Compile>
+    <Compile Include="Level Data\Level 2.png">
+      <Name>Level 2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>0</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_MouseNumber>7</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_RabbitNumber>0</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_Score>2000</ProcessorParameters_Score>
+    </Compile>
+    <Compile Include="Level Data\Level 3.png">
+      <Name>Level 3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>2</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_MouseNumber>5</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_RabbitNumber>0</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_Score>4000</ProcessorParameters_Score>
+    </Compile>
+    <Compile Include="Level Data\Level 4.png">
+      <Name>Level 4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>3</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_MouseNumber>5</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_RabbitNumber>0</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_Score>6000</ProcessorParameters_Score>
+      <ProcessorParameters_Orientation>left</ProcessorParameters_Orientation>
+      <ProcessorParameters_SpawnPointX>8</ProcessorParameters_SpawnPointX>
+      <ProcessorParameters_SpawnPointY>25</ProcessorParameters_SpawnPointY>
+      <ProcessorParameters_SpawnPoint>8, 24</ProcessorParameters_SpawnPoint>
+    </Compile>
+    <Compile Include="Level Data\Level 5.png">
+      <Name>Level 5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>2</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_RabbitNumber>2</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_MouseNumber>5</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_Score>9000</ProcessorParameters_Score>
+      <ProcessorParameters_SpawnPointX>16</ProcessorParameters_SpawnPointX>
+      <ProcessorParameters_SpawnPointY>8</ProcessorParameters_SpawnPointY>
+      <ProcessorParameters_SpawnPoint>16, 8</ProcessorParameters_SpawnPoint>
+    </Compile>
+    <Compile Include="Level Data\Level 6.png">
+      <Name>Level 6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>4</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_MouseNumber>4</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_RabbitNumber>2</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_Score>12000</ProcessorParameters_Score>
+      <ProcessorParameters_SpawnPointX>18</ProcessorParameters_SpawnPointX>
+      <ProcessorParameters_SpawnPointY>7</ProcessorParameters_SpawnPointY>
+      <ProcessorParameters_SpawnPoint>18, 7</ProcessorParameters_SpawnPoint>
+    </Compile>
+    <Compile Include="Level Data\Level 7.png">
+      <Name>Level 7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>2</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_MouseNumber>4</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_RabbitNumber>4</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_Score>15000</ProcessorParameters_Score>
+      <ProcessorParameters_SpawnPointX>18</ProcessorParameters_SpawnPointX>
+      <ProcessorParameters_SpawnPointY>7</ProcessorParameters_SpawnPointY>
+      <ProcessorParameters_SpawnPoint>18, 7</ProcessorParameters_SpawnPoint>
+    </Compile>
+    <Compile Include="Level Data\Level 8.png">
+      <Name>Level 8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GroundHogNumber>4</ProcessorParameters_GroundHogNumber>
+      <ProcessorParameters_MouseNumber>3</ProcessorParameters_MouseNumber>
+      <ProcessorParameters_RabbitNumber>4</ProcessorParameters_RabbitNumber>
+      <ProcessorParameters_Score>20000</ProcessorParameters_Score>
+      <ProcessorParameters_Orientation>left</ProcessorParameters_Orientation>
+      <ProcessorParameters_SpawnPointX>7</ProcessorParameters_SpawnPointX>
+      <ProcessorParameters_SpawnPoint>8, 12</ProcessorParameters_SpawnPoint>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Data\Level 9.png">
+      <Name>Level 9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Objects\Key 1.png">
+      <Name>Key 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Data\Level 10.png">
+      <Name>Level 10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Objects\Diet Pill 1.png">
+      <Name>Diet Pill 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Objects\Extra Life.png">
+      <Name>Extra Life</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Food\Scorpion 1.png">
+      <Name>Scorpion 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Data\Level 11.png">
+      <Name>Level 11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level Data\Level 12.png">
+      <Name>Level 12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

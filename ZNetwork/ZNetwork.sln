@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZNetwork", "ZNetwork\ZNetwork.csproj", "{9C27867D-0634-43B8-BFF2-EAFD4B227044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Zune = Debug|Zune
+		Release|Zune = Release|Zune
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C27867D-0634-43B8-BFF2-EAFD4B227044}.Debug|Zune.ActiveCfg = Debug|Zune
+		{9C27867D-0634-43B8-BFF2-EAFD4B227044}.Debug|Zune.Build.0 = Debug|Zune
+		{9C27867D-0634-43B8-BFF2-EAFD4B227044}.Release|Zune.ActiveCfg = Release|Zune
+		{9C27867D-0634-43B8-BFF2-EAFD4B227044}.Release|Zune.Build.0 = Release|Zune
+		{9BBDE5C7-A9CA-4ED8-B6F9-BA0C6F916125}.Debug|Zune.ActiveCfg = Debug|Zune
+		{9BBDE5C7-A9CA-4ED8-B6F9-BA0C6F916125}.Release|Zune.ActiveCfg = Release|Zune
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mach", "Mach\Mach.csproj", "{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mach - Zune", "Mach\Mach - Zune.csproj", "{9CF9A481-9353-4B4D-B74B-853E66ED0552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Debug|Zune = Debug|Zune
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release|Zune = Release|Zune
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Debug|x86.ActiveCfg = Debug|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Debug|x86.Build.0 = Debug|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Debug|Zune.ActiveCfg = Debug|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Release|Mixed Platforms.Build.0 = Release|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Release|x86.ActiveCfg = Release|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Release|x86.Build.0 = Release|x86
+		{93D80F58-6CFB-46B5-BCCD-47E0BB5598F0}.Release|Zune.ActiveCfg = Release|x86
+		{C989AD3D-64EB-40E2-8F40-36670C49FC6B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C989AD3D-64EB-40E2-8F40-36670C49FC6B}.Debug|x86.ActiveCfg = Debug|x86
+		{C989AD3D-64EB-40E2-8F40-36670C49FC6B}.Debug|Zune.ActiveCfg = Debug|x86
+		{C989AD3D-64EB-40E2-8F40-36670C49FC6B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C989AD3D-64EB-40E2-8F40-36670C49FC6B}.Release|x86.ActiveCfg = Release|x86
+		{C989AD3D-64EB-40E2-8F40-36670C49FC6B}.Release|Zune.ActiveCfg = Release|x86
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Debug|Mixed Platforms.ActiveCfg = Debug|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Debug|Mixed Platforms.Build.0 = Debug|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Debug|x86.ActiveCfg = Debug|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Debug|Zune.ActiveCfg = Debug|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Debug|Zune.Build.0 = Debug|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Release|Mixed Platforms.ActiveCfg = Release|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Release|Mixed Platforms.Build.0 = Release|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Release|x86.ActiveCfg = Release|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Release|Zune.ActiveCfg = Release|Zune
+		{9CF9A481-9353-4B4D-B74B-853E66ED0552}.Release|Zune.Build.0 = Release|Zune
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

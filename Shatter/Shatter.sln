@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shatter - Windows", "Shatter\Shatter - Windows.csproj", "{AB87510B-296D-4DA7-90A1-89CEAEC8C715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shatter - Zune", "Shatter\Shatter - Zune.csproj", "{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Debug|Zune = Debug|Zune
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release|Zune = Release|Zune
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Debug|x86.ActiveCfg = Debug|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Debug|x86.Build.0 = Debug|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Debug|Zune.ActiveCfg = Debug|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Release|Mixed Platforms.Build.0 = Release|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Release|x86.ActiveCfg = Release|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Release|x86.Build.0 = Release|x86
+		{AB87510B-296D-4DA7-90A1-89CEAEC8C715}.Release|Zune.ActiveCfg = Release|x86
+		{0026A7BC-6C35-47A2-A7F4-8031D491DA6F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0026A7BC-6C35-47A2-A7F4-8031D491DA6F}.Debug|x86.ActiveCfg = Debug|x86
+		{0026A7BC-6C35-47A2-A7F4-8031D491DA6F}.Debug|Zune.ActiveCfg = Debug|x86
+		{0026A7BC-6C35-47A2-A7F4-8031D491DA6F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0026A7BC-6C35-47A2-A7F4-8031D491DA6F}.Release|x86.ActiveCfg = Release|x86
+		{0026A7BC-6C35-47A2-A7F4-8031D491DA6F}.Release|Zune.ActiveCfg = Release|x86
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Debug|Mixed Platforms.ActiveCfg = Debug|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Debug|Mixed Platforms.Build.0 = Debug|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Debug|x86.ActiveCfg = Debug|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Debug|Zune.ActiveCfg = Debug|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Debug|Zune.Build.0 = Debug|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Release|Mixed Platforms.ActiveCfg = Release|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Release|Mixed Platforms.Build.0 = Release|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Release|x86.ActiveCfg = Release|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Release|Zune.ActiveCfg = Release|Zune
+		{00C9ACFD-21C4-4557-AB88-3C8ADFFD978C}.Release|Zune.Build.0 = Release|Zune
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

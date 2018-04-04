@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
+
+namespace Shatter.Lighting.Sources
+{
+    public interface ILightSource
+    {
+        Vector2 Location { get; set; }
+
+        Texture2D illuminate(GraphicsDevice device, Texture2D texture);
+    }
+}

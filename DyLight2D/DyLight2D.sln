@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyLight2D", "DyLight2D\DyLight2D.csproj", "{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zune Copy of DyLight2D", "DyLight2D\Zune Copy of DyLight2D.csproj", "{2A896847-B20E-4235-940E-14726A48046F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Debug|Zune = Debug|Zune
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release|Zune = Release|Zune
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Debug|x86.ActiveCfg = Debug|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Debug|x86.Build.0 = Debug|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Debug|Zune.ActiveCfg = Debug|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Release|x86.ActiveCfg = Release|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Release|x86.Build.0 = Release|x86
+		{1E429BE6-A6B6-491D-95EF-4D49FFD44FCA}.Release|Zune.ActiveCfg = Release|x86
+		{678E6F8E-B70A-4F6B-8A92-5DD9DCC67284}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{678E6F8E-B70A-4F6B-8A92-5DD9DCC67284}.Debug|x86.ActiveCfg = Debug|x86
+		{678E6F8E-B70A-4F6B-8A92-5DD9DCC67284}.Debug|Zune.ActiveCfg = Debug|x86
+		{678E6F8E-B70A-4F6B-8A92-5DD9DCC67284}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{678E6F8E-B70A-4F6B-8A92-5DD9DCC67284}.Release|x86.ActiveCfg = Release|x86
+		{678E6F8E-B70A-4F6B-8A92-5DD9DCC67284}.Release|Zune.ActiveCfg = Release|x86
+		{2A896847-B20E-4235-940E-14726A48046F}.Debug|Mixed Platforms.ActiveCfg = Debug|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Debug|Mixed Platforms.Build.0 = Debug|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Debug|x86.ActiveCfg = Debug|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Debug|Zune.ActiveCfg = Debug|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Debug|Zune.Build.0 = Debug|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Release|Mixed Platforms.ActiveCfg = Release|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Release|Mixed Platforms.Build.0 = Release|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Release|x86.ActiveCfg = Release|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Release|Zune.ActiveCfg = Release|Zune
+		{2A896847-B20E-4235-940E-14726A48046F}.Release|Zune.Build.0 = Release|Zune
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
