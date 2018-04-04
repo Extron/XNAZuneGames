@@ -1,2 +1,2 @@
-#ZMediaPlayer
+# ZMediaPlayer
 An XNA library for the Zune that provides a media player to allow the user to access the songs on the device. Provides a UI to view the media by song, artist, album, or playlist. Provides a queue of current songs to play that the user can shuffle and repeat. Utilizes [GameMenus](https://github.com/Extron/XNAZuneGames/tree/master/GameMenus) for UI management and [InputHandler](https://github.com/Extron/XNAZuneGames/tree/master/InputHandler) for input.
